@@ -1,23 +1,62 @@
 aid: relievant-medsystems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/relievant-medsystems.png
 name: Relievant Medsystems
-description: Relievant Medsystems is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Relievant Medsystems is a medical device company that developed the Intracept
+  Procedure, a minimally invasive treatment that uses radiofrequency ablation of
+  the basivertebral nerve to relieve chronic vertebrogenic low back pain.
+  Originally venture-backed (including by Canaan Partners), Relievant was acquired
+  by Boston Scientific in 2023, and the Intracept system is now marketed under the
+  Boston Scientific portfolio. The company is a clinical medical-device business
+  focused on physicians, hospitals, and patients rather than a software or API
+  platform, and it publishes no public developer API, SDK, or technical
+  integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/relievant-medsystems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
+x-acquired-by: boston-scientific
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Medtech
+- Pain Management
+- Spine
+- Neuromodulation
 apis: []
+common:
+- type: DomainSecurity
+  url: security/relievant-medsystems-domain-security.yml
+- type: Website
+  url: https://www.relievant.com
+- type: Website
+  name: Intracept Procedure
+  url: https://www.intracept.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
