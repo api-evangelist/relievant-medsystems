@@ -48,7 +48,7 @@ tags:
 - Company
 - Medical Devices
 - Healthcare
-- MedTech
+- Medtech
 - Pain Management
 - Spine
 - Neuromodulation
@@ -62,6 +62,11 @@ tags_raw:
 - Neuromodulation
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/boston-scientific/
+  name: Boston Scientific
+  x-relationship: acquired
+  x-evidence: "Originally venture-backed (including by Canaan Partners), Relievant was acquired by Boston Scientific in 2023, and the Intracept system is now marketed under the Boston Scientific portfolio."
 - type: DomainSecurity
   url: security/relievant-medsystems-domain-security.yml
 - type: Website
